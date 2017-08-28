@@ -17,6 +17,25 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Accounts		Fonts			Processing
+Application Support	Google			PubSub
+Arduino15		Group Containers	QuickLook
+Assistants		IdentityServices	Safari
+Audio			Input Methods		Saved Application State
+Caches			Internet Plug-Ins	Screen Savers
+Calendars		KeyBindings		Services
+ColorPickers		Keyboard Layouts	Sounds
+ColorSync		Keychains		Spelling
+Colors			LanguageModeling	Suggestions
+Components		LaunchAgents		SyncedPreferences
+Compositions		Logs			TextWrangler
+Containers		Mail			Unity
+Cookies			Messages		VirtualBox
+CoreData		Metadata		Voices
+Developer		PhotoshopCrashes	WebKit
+Dictionaries		PreferencePanes		com.apple.nsurlsessiond
+Favorites		Preferences		iMovie
+FontCollections		Printers		iTunes
 
 
 
@@ -27,18 +46,26 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+When i press Tab the action doesn’t go through, instead they show me two different options i can possibly use.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
+ent-v314-013:library student$ ls D
+Developer/    Dictionaries/ 
+ent-v314-013:library student$ ls D
+Developer/    Dictionaries/ 
+ent-v314-013:library student$ ls D
+
 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
+ls: D: No such file or directory
+ent-v314-013:library student$ 
 
 
 
