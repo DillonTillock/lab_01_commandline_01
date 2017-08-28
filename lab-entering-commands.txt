@@ -130,37 +130,40 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+ent-v314-013:library student$ ls doesnotexist
+ls: doesnotexist: No such file or directory
+ent-v314-013:library student$ 
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+up
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-l, -a
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+Tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -170,6 +173,9 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
+ent-v314-013:library student$ 
+
 
 
 
@@ -180,6 +186,9 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+ent-v314-013:library student$ -bash: foo: command not found
+-bash: -bash:: command not found
+ent-v314-013:library student$ ent-v314-013:library student$
 
 
 
@@ -189,4 +198,4 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+---------- Flag
