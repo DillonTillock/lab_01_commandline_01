@@ -76,6 +76,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+ls: Documents: No such file or directory
+ent-v314-013:library student$ 
 
 
 
@@ -87,6 +89,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+ls: Documents: No such file or directory
+ent-v314-013:library student$ ==
 
 
 ==========
@@ -96,7 +100,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -106,7 +110,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Document
 
 
 ==========
@@ -117,7 +121,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Pressing Tab completes the word spelling Volumes.
 
 ==========
 8.  Type:
